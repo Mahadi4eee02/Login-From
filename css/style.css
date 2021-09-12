@@ -1,0 +1,70 @@
+
+body{background:url(../img/Login-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.content {
+    /* width: 300px; */
+    height: 450px;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    text-align: center;
+}
+
+.Login-section img{
+	width: 180px;
+	margin: 20px auto;
+	display: block;
+}
+
+.Login-section h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+
+.form-control {
+    border: 3px solid #9c27b0;
+    border-radius: 20px;
+    margin: 5PX;
+    PADDING: 10PX 25px;
+    TEXT-ALIGN: CENTER;
+    HEIGHT: 10px;
+    WIDTH: 50%;
+    outline: none;
+   }
+
+.from-btn {
+    background-color: aqua;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.from-btn:hover {
+	box-shadow: 2px 2px 5px greenyellow;
+}
+
+.address {
+    color: #88ea1c;
+    display: block;
+    text-align: center;
+    margin: 10px 7px;
+    padding: 0px auto;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
